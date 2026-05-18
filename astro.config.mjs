@@ -35,7 +35,7 @@ export default defineConfig({
 			}),
 			plugins: [formsPlugin(), auditLogPlugin()],
 			mcp: true,
-			siteUrl: "https://cnet-interior-vernon-every.trycloudflare.com",
+			siteUrl: "http://localhost:4321",
 		}),
 	],
 	devToolbar: { enabled: false },

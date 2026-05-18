@@ -3,12 +3,17 @@ This is an EmDash site -- a CMS built on Astro with a full admin UI.
 ## Commands
 
 ```bash
+pnpm install          # Install dependencies
+pnpm bootstrap        # First-time setup: init DB + seed demo content
 npx emdash dev        # Start dev server (runs migrations, seeds, generates types)
 npx emdash types      # Regenerate TypeScript types from schema
 npx emdash seed seed/seed.json --validate  # Validate seed file
+astro check           # TypeScript check
 ```
 
-The admin UI is at `http://localhost:4321/_emdash/admin`.
+Site: `http://localhost:4321` — Admin: `http://localhost:4321/_emdash/admin`
+
+> `~/Sites/emdash` is a symlink to this directory — kept for backwards compatibility.
 
 ## Key Files
 
